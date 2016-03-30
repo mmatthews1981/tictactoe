@@ -1,0 +1,102 @@
+body {
+  background: url("https://dl.dropboxusercontent.com/u/31750021/concrete_seamless.png");
+  color: #000;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+      font-size: 64px;
+    
+}
+
+.wrapper {
+  width: 296px;
+  margin: 0px auto;
+}
+
+.grid {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: -3px -2px;
+}
+
+.row{
+  margin: 0px auto;
+}
+
+.marker{
+  display: inline-block;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  margin: 5px 15px;
+  font-size: 48px;
+}
+
+.markx {
+  background: url("https://dl.dropboxusercontent.com/u/31750021/x.png");
+}
+
+.marko {
+  background: url("https://dl.dropboxusercontent.com/u/31750021/o.png");
+}
+
+.pop-up {
+background: url("https://dl.dropboxusercontent.com/u/31750021/scrap.png");
+/*https://www.vectoropenstock.com/user/2049/great*/
+width: 350px;
+  height: 286px;
+  margin: -300px auto;
+  position:relative;
+  z-index: 10;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.winner {
+/*https://www.vectoropenstock.com/user/2049/great*/
+    background: url("https://dl.dropboxusercontent.com/u/31750021/win.png");
+    width: 199px;
+    height: 83px;
+    margin: -194px auto;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 53px;
+    background-position: 0 10px;
+    background-repeat: no-repeat;
+}
+
+#winmessage {
+  margin-top: -10px;
+}
+
+#message {
+padding-top: 25px;
+font-size:35px;
+
+}
+
+#b0,#b1,
+#b3,#b4,
+#b6,#b7{
+  border-right: 2px solid #aaa;
+}
+
+#b1,#b2,
+#b4,#b5,
+#b7,#b8{
+  border-left: 2px solid #aaa;
+}
+
+#b0,#b1,#b2,
+#b3,#b4,#b5 {
+  border-bottom: 2px solid #aaa;
+}
+
+#b3,#b4,#b5,
+#b6, #b7, #b8 {
+  border-top: 2px solid #aaa;
+}
